@@ -57,6 +57,7 @@ const HeaderBlock = styled(Responsive)`
 
 const Spacer = styled.div`
   height: 3rem;
+  background: white;
 `;
 
 const Header = () => {
