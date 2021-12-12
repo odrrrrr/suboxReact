@@ -39,23 +39,22 @@ const RightPartBlock = styled.div`
   @media (max-width: 1100px) {
     margin-top: 3rem;
     overflow: hidden;
-    .scroll {
-      width: 100%;
-      img {
-        width: 100%;
-        height: 150px;
-        object-fit: contain;
-        border: 0;
-      }
+    width: 50%;
+
+    img {
+      width: inherit;
+
+      object-fit: cover;
     }
+  }
+  @media (max-width: 760px) {
+    width: 100%;
   }
 `;
 
 const Img = styled.img`
-  width: 500px;
   height: inherit;
   object-fit: cover;
-  border: 1px solid black;
   border-radius: 1rem;
 `;
 
@@ -63,7 +62,6 @@ const SliderContainer = styled.div`
   height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 `;
 
 const Slide = ({ img }) => {
@@ -91,7 +89,6 @@ const RightPart = () => {
   return (
     <>
       <RightPartBlock {...scrollAnimation}>
-        <audio />
         <SliderContainer className="scroll" ref={slideRef}>
           {slideNum.map((slide, index) => (
             <Slide img={slide} key={index} />

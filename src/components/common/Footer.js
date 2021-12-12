@@ -25,6 +25,7 @@ const FooterBlock = styled.div`
 
   @media (max-width: 1100px) {
     font-size: 12px;
+    padding: 2rem;
   }
 `;
 

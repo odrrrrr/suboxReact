@@ -25,6 +25,12 @@ const RightPartBlock = styled.div`
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+  @media (max-width: 760px) {
+    span {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
 `;
 
 const RightPart = () => {

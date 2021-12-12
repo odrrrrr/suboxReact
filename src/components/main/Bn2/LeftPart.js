@@ -19,6 +19,14 @@ const LeftPartBlock = styled.div`
     height: 100px;
     object-fit: contain;
   }
+  @media (max-width: 760px) {
+    .sub1 {
+      font-size: 20px;
+    }
+    .sub2 {
+      line-height: 2rem;
+    }
+  }
 `;
 
 const LeftPart = () => {

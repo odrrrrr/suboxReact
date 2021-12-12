@@ -13,6 +13,11 @@ const LeftPartBlock = styled.div`
     height: 400px;
     object-fit: contain;
   }
+  @media (max-width: 760px) {
+    img {
+      height: 300px;
+    }
+  }
 `;
 
 const LeftPart = () => {
