@@ -10,7 +10,7 @@ import { Grid } from '@material-ui/core';
 import useScrollAnimation from '../../../lib/hook/useScrollAnimation';
 const RightPartBlock = styled.div`
   transform: scale(0.7, 0.9);
-  width: 600px;
+  width: 100%;
   .gridBox {
     display: flex;
     justify-content: flex-end;
@@ -24,6 +24,10 @@ const RightPartBlock = styled.div`
   @media (max-width: 1100px) {
     .gridBox {
       justify-content: center;
+      align-items: center;
+      .img {
+        width: 100%;
+      }
     }
   }
 `;
@@ -34,7 +38,7 @@ const RightPart = () => {
   return (
     <RightPartBlock {...scrollAnimation}>
       <div className="gridBox">
-        <Grid item xs={9}>
+        <Grid item xs={6}>
           {grid_img.map((img, index) => (
             <img src={img} alt="img" key={index} />
           ))}

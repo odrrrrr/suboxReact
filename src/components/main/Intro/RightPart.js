@@ -13,8 +13,9 @@ const imageRotate = keyframes`
 const RightPartBlock = styled.div`
   transform: scale(0.7);
   img {
-    width: 505px;
+    width: 100%;
     height: 505px;
+    object-fit: contain;
     ${(props) =>
       props.introPlayState &&
       css`

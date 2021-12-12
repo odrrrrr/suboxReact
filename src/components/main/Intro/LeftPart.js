@@ -38,6 +38,9 @@ const LeftPartBlock = styled.div`
     }
   }
 
+  .subox {
+  }
+
   .btns {
     display: flex;
     padding-top: 1rem;
@@ -53,10 +56,16 @@ const LeftPartBlock = styled.div`
       font-weight: 200;
     }
     span:nth-child(2) {
-      font-size: 7rem;
+      font-size: 6rem;
       font-weight: 800;
       line-height: 1;
       color: #00ffff;
+    }
+    .btns {
+      img {
+        width: 50%;
+        object-fit: contain;
+      }
     }
   }
 `;
@@ -93,6 +102,7 @@ const LeftPart = ({ onPlayingBtn, introPlayState }) => {
         )}
         <p>웹 서비스 개발중...</p>
       </div>
+
       <div className="btns">
         <img src={googleplay} alt="googleplay" />
         <img src={appstore} alt="appstore" />

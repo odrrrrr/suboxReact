@@ -52,29 +52,25 @@ const BottomPart = () => {
       <div className="slideContainer">
         <Swiper
           className="banner"
-          spaceBetween={1}
-          slidesPerView={6}
-          slidesOffsetBefore={12}
-          slidesOffsetAfter={12}
           breakpoints={{
             0: {
-              spaceBetween: 8,
-              slidesPerView: 2,
+              slidesPerView: 1,
             },
-            760: {
+
+            800: {
               spaceBetween: 8,
               slidesPerView: 3,
+              slidesOffsetBefore: 24,
             },
 
             1100: {
               spaceBetween: 1,
               slidesPerView: 5,
-              slidesOffsetBefore: 48,
+              slidesOffsetBefore: 24,
             },
             1650: {
               spaceBetween: 1,
               slidesPerView: 7,
-              slidesOffsetBefore: 48,
             },
           }}
           loop={true}

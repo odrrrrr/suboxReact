@@ -38,8 +38,16 @@ const RightPartBlock = styled.div`
 
   @media (max-width: 1100px) {
     margin-top: 3rem;
-
     overflow: hidden;
+    .scroll {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        border: 0;
+      }
+    }
   }
 `;
 

@@ -9,8 +9,9 @@ const LeftPartBlock = styled.div`
   transform-origin: 100% 0%;
   transform: scale(0.7);
   img {
-    width: 469px;
+    width: 100%;
     height: 400px;
+    object-fit: contain;
   }
 `;
 
