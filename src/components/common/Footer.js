@@ -48,15 +48,11 @@ const Footer = () => {
         <LinkStyle to="#">CONTACT</LinkStyle>
       </div>
       <div className="footer_sub_information">
-        Song: Arlow & Shiah Maisel - 21 [NCS Release] Music provided by
-        NoCopyrightSounds Free Download/Stream: http://NCS.io/twentyone Watch:
-        http://youtu.be/AnF_VOliv0E
+        Song: Arlow & Shiah Maisel ...
         <br />
-        주식회사 슈박스 | 대표이사: 김성호 | 사업자등록번호 : 172-86-01671 |
-        통신판매업 신고번호 : 제 2021-서울강남-03905호
+        주식회사 | 대표이사: | 사업자등록번호 : | 통신판매업 신고번호 :
         <br />
-        위치: 서울시 강남구 선릉로 111길 41(논현동, 남정빌딩) | 제휴/이벤트 :
-        support@subox.co.kr
+        위치: | 제휴/이벤트 :
         <br />
         Copyright ⓒ 2021 Subox Inc. All rights reserved.
       </div>
